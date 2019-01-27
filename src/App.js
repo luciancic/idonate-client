@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from './header';
 import Donor from './Donor';
 import Receiver from './Receiver';
 import Manager from './Manager';
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Header />
           <Link to="/donor">Donate</Link>
           <Link to="/receiver">Receive</Link>
           <Link to="/manager">Manage</Link>
