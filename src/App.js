@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation';
+import Home from './Home';
 import Pages from "./Pages";
 import './App.css';
 
@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route path="/" exact component={Navigation} />
+            <Route path="/" exact component={Home} />
             <Route component={Pages} />
           </Switch>
         </div>

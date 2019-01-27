@@ -1,0 +1,19 @@
+#home {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+#home a:first-child {
+    align-self: end;
+}
+
+#home a {
+    margin: 0 auto;
+}
+
+#home a:last-child {
+    align-self: start;
+}
