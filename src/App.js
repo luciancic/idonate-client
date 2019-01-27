@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './header';
+import Header from './Header';
 import Donor from './Donor';
 import Receiver from './Receiver';
 import Manager from './Manager';
